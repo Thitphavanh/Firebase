@@ -14,10 +14,27 @@
   <body>
     <div class="container my-3">
       <h2 class="text-center">Firebase Cloud Firestore</h2>
+      <form id="addForm">
+        <div class="form-group my-3">
+          <label for="name">ຊື່</label>
+          <input type="text" class="form-control" name="name" />
+        </div>
+        <div class="form-group my-3">
+          <label for="age">ອາຍຸ</label>
+          <input type="text" class="form-control" name="age" />
+        </div>
+        <div class="form-group my-3">
+          <button type="summit" class="btn btn-primary">ບັນທຶກ</button>
+        </div>
+      </form>
+      <hr>
+
       <table class="table table-bordered" id="table">
         <tr>
-          <th>Name</th>
-          <th>age</th>
+          <th>ຊື່</th>
+          <th>ອາຍຸ</th>
+          <th>ລົບ</th>
+
         </tr>
       </table>
     </div>
